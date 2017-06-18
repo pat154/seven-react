@@ -7,8 +7,6 @@ import './index.css';
 const showImage = require('./images/tile.jpg');
 const showName = 'Home and Away';
 
-document.title = 'Channel Seven';
-
 ReactDOM.render(
   <ShowPromo img={showImage} showName={showName}/>,
   document.getElementById('root') as HTMLElement
