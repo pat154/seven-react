@@ -1,0 +1,27 @@
+{
+  "name": "home-and-away",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Patrick Shelley",
+  "dependencies": {
+    "@types/enzyme": "^2.8.0",
+    "@types/jest": "^20.0.0",
+    "@types/node": "^7.0.31",
+    "@types/react": "^15.0.29",
+    "@types/react-dom": "^15.5.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.0"
+  },
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "react-scripts-ts": "2.2.0",
+    "react-test-renderer": "^15.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
